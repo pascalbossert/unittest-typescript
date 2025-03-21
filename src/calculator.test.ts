@@ -27,3 +27,16 @@ test("subtract four from six is two", () => {
   // Assert
   expect(actual).toBe(expected);
 });
+
+test("multiply three by four is twelve", () => {
+  // Arrange
+  const a: number = 3;
+  const b: number = 4;
+  const expected: number = 12;
+
+  // Act
+  const actual = multiply(a, b); // Fehler: Funktion existiert noch nicht
+
+  // Assert
+  expect(actual).toBe(expected);
+});
