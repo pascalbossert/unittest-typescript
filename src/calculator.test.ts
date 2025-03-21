@@ -54,3 +54,16 @@ test("divide six by three is two", () => {
   expect(actual).toBe(expected);
 });
 
+test("divide any number by zero returns Infinity", () => {
+  // Arrange
+  const a: number = 5;
+  const b: number = 0;
+  const expected: number = Infinity;
+
+  // Act
+  const actual = divide(a, b);
+
+  // Assert
+  expect(actual).toBe(expected);
+});
+
