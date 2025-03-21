@@ -1,4 +1,4 @@
-import { add, subtract } from "./calculator";
+import { add, subtract, multiply } from "./calculator";
 
 test("add three to two is five", () => {
   // Arrange
